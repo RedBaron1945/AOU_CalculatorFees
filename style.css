@@ -32,7 +32,10 @@ header h3 {
     display: block;
     margin: 20px auto;
 }
-
+#WorkImage{
+    display:block;
+    margin: 20px auto;
+}
 #box1 {
     background-color: rgb(206, 205, 205);
     padding: 20px;
@@ -94,3 +97,4 @@ footer img {
     margin: 10px auto;
     width: 150px;
 }
+
