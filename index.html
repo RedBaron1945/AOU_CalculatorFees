@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حاسبة رسوم المواد</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبًا إلى الآلة الحاسبة لرسوم مواد الجامعة العربية المفتوحة! نوّرتنا</h1>
+        <h3>نرجو ملاحظة أن الموقع لا يزال تحت التجربة، بعض الأعطال قد تحدث وبعض النقص وارد</h3>
+    </header>
+
+    <main>
+        <img src="Athkar.png" id="header-img">
+        <div id="box1">
+            <h3>تعليمات استخدام الآلة الحاسبة :-</h3>
+            <pre>
+    1. الرجاء إدخال المواد بهذا الشكل: المادة الأولى - المادة الثانية - المادة الثالثة 
+       مثال:
+       EL097 - TM111 - MT101 
+
+    2. بعض المشاكل لا يمكن التنبؤ فيها إلا بعد الاستخدام من قبل حضراتكم، لذلك في حالة وجود أي مشكلة/اقتراح تفضل بالتواصل معي بالرقم المتواجد في آخر الصفحة.
+
+    3. الرجاء مراعاة أن المواد الآتية هي المدعومة حاليًا فقط، أي مواد ليست موجودة في هذا الجدول فلن يتم حساب رسومها.
+            </pre>
+        </div>
+        <br>
+        <label for="subjects">أدخل المواد التي ترغب بتسجيلها:</label><br>
+        <input type="text" id="subjects">
+        <label for="VATbox">هل ترغب باحتساب ضريبة القيمة المضافة مع الإجمالي؟ هذا الخيار لغير السعوديين فقط</label>
+        <input type="checkbox" id="VATbox">
+        <br><br>
+        <button id="CalculatingTotal">احسب الإجمالي الآن</button>
+        <h4 id="TheFirstLabel"></h4>
+        <h4 id="TheTotal"></h4>
+        <h4 id="TheSecondLabel"></h4>
+        <br>
+    </main>
+
+    <footer>
+        <hr>
+        &copy; كافة حقوق الطبع والنشر محفوظة
+        <br>
+        في حالة وجود أي استفسار أو اقتراحات، تواصل على الواتس آب:
+        <br>
+        0536820848
+        <br>
+        <img src="NaziLogo (2).png" id="footer-img" alt="Logo">
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
