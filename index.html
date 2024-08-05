@@ -2,18 +2,17 @@
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>حاسبة رسوم المواد</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>مرحبًا إلى الآلة الحاسبة لرسوم مواد الجامعة العربية المفتوحة! نوّرتنا</h1>
-        <h3>نرجو ملاحظة أن الموقع لا يزال تحت التجربة، بعض الأعطال قد تحدث وبعض النقص وارد</h3>
+        <h1>مرحبًا إلى الآلة الحاسبة لرسوم مواد الجامعة العربية المفتوحة!</h1>
     </header>
 
     <main>
-        <img src="Athkar.png" id="header-img">
+        
         <div id="box1">
             <h3>تعليمات استخدام الآلة الحاسبة :-</h3>
             <pre>
@@ -21,32 +20,26 @@
        مثال:
        EL097 - TM111 - MT101 
 
-    2. بعض المشاكل لا يمكن التنبؤ فيها إلا بعد الاستخدام من قبل حضراتكم، لذلك في حالة وجود أي مشكلة/اقتراح تفضل بالتواصل معي بالرقم المتواجد في آخر الصفحة.
-
-    3. الرجاء مراعاة أن المواد الآتية هي المدعومة حاليًا فقط، أي مواد ليست موجودة في هذا الجدول فلن يتم حساب رسومها.
+    2. الرجاء مراعاة أن المواد الآتية هي المدعومة حاليًا فقط، أي مواد ليست موجودة في هذا الجدول فلن يتم حساب رسومها.
             </pre>
         </div>
         <br>
         <label for="subjects">أدخل المواد التي ترغب بتسجيلها:</label><br>
-        <input type="text" id="subjects">
+        <input type="text" id="subjects" placeholder="المادة الأولى - المادة الثانية  -  الخ ">
         <label for="VATbox">هل ترغب باحتساب ضريبة القيمة المضافة مع الإجمالي؟ هذا الخيار لغير السعوديين فقط</label>
         <input type="checkbox" id="VATbox">
         <br><br>
         <button id="CalculatingTotal">احسب الإجمالي الآن</button>
+        <button id="DeletingBut">مسح المواد</button>
         <h4 id="TheFirstLabel"></h4>
         <h4 id="TheTotal"></h4>
         <h4 id="TheSecondLabel"></h4>
         <br>
-<per> هل تبحث عن مجموعات الواتس آب الخاصة بالجامعة العربية المفتوحة؟</per>
-<a href="Page2.html">
-<button> اضغط هنا لاستعراض كل المجموعات!</button>
-</a>
-        <img src="ExtremeCaution.jpg" id="WorkImage">
-        <h4 style="text-align: center; background-color: lightyellow; color:brown; font-size: large;"> 
-            ..عذرًا الصفحة تحت الصيانة حاليًا و لم تكتمل بعد! نعتذر على الإزعاج
-            <br>
-يحيا هتلر، يحيا النسيم، تحيا ألمانيا 
-        </h4>
+        <p>هل تبحث عن مجموعات الواتس آب الخاصة بالجامعة العربية المفتوحة؟</p>
+        <a href="Page2.html">
+            <button> اضغط هنا لاستعراض كل المجموعات!</button>
+        </a>
+        
     </main>
 
     <footer>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خطط التخصصات</title>
+    <link rel="stylesheet" href="stylePlans.css">
+    <script src="https://kit.fontawesome.com/e4ca4e0391.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <h1>خطط كل التخصصات مع رسومها</h1>
+</header>
+
+<h3>  <b style="color: red; background-color: lightyellow;">ملاحظة:</b> بعد الضغط على التخصص ، ستظهر الخطة مع باقي التفاصيل بأسفل الصفحة </h3>
+<h3>يوجد نوعان من الخطط:
+    1- الخطة الدراسية للأربعة سنين
+    2- الخطة التفصيلية للمواد
+
+    الخطة الدراسية للأربعة سنين تكون خطة مقترحة من إدارة الجامعة 
+</h3>
+<div id="buttonsContainer"> 
+   <p class="Titles">تخصصات كلية الحاسب الآلي</p>
+
+    <button class="IT" onclick="HitzerTank(1)">تقنية المعلومات و الحوسبة <i class="fa-solid fa-desktop"></i></button>
+      
+<button class="IT" onclick="HitzerTank(2)">علوم الحاسب <i class="fa-solid fa-desktop"></i></button>
+<br><br>
+ <button  class="IT" onclick="HitzerTank(3)">تطوير الويب <i class="fa-solid fa-desktop"></i></button>
+ <button  class="IT" onclick="HitzerTank(4)">الحوسبة و الأعمال<i class="fa-solid fa-desktop"></i></button>
+<br><br>
+ <button class="IT" onclick="HitzerTank(5)">الأمن و الشبكات <i class="fa-solid fa-desktop"></i></button>
+
+
+
+ <p class="Titles">تخصصات كلية الأعمال</p>
+ <button class ="bus" onclick="HitzerTank(6)">التسويق<i class="fa-solid fa-briefcase"></i></button>
+ <button class="bus" onclick="HitzerTank(7)">الأنظمة<i class="fa-solid fa-briefcase"></i></button>
+<br><br>
+<button class = "bus"onclick="HitzerTank(8)">المحاسبة باللغة العربية<i class="fa-solid fa-briefcase"></i></button>
+<button class = "bus"onclick="HitzerTank(9)">المحاسبة باللغة الإنجليزية <i class="fa-solid fa-briefcase"></i></button>
+<br><br>
+
+<p class="Titles" >تخصصات كلية اللغة</p>
+<button class ="Eng" onclick="HitzerTank(10)">الأدب الإنجليزي <i class="fa-solid fa-flag-usa"></i></button>
+
+<br>
+</div>
+</table>
+
+<h2 id="PlanTitle"></h2>
+<pre id="1stPlan"></pre>
+<a href="#" target="_blank" id="a1"></a>
+<pre id="2sPlan"></pre>
+<a href="#" target="_blank" id="a2"></a>
+
+
+
+
+<script src="index.js"></script>
+
+<footer>
+    <hr>
+    &copy; كافة حقوق الطبع و النشر محفوظة لألمانيا النازية - حي النسيم
+    <br>
+    أي انتهاك لحقوق الطبع و النشر الموضحة أعلاه، يعرض المنتهك إلى الهلاك بنفس مصير اليهود أيام هتلر 
+    <br>
+    في حالة وجود أي استفسار أو اقتراحات، تواصل على الواتس آب:
+    <br>
+    0536820848
+    <br>
+    <img src="NaziLogo (2).png" id="footer-img" alt="Logo">
+</footer>
+</body>
+</html>
