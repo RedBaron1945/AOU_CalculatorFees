@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حلقة القرآن - Bootstrap</title>
+    <!-- ربط Bootstrap من CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">حلقة القرآن الكريم</h1>
+
+        <!-- أزرار -->
+        <div class="text-center mb-4">
+            <button class="btn btn-primary me-2">سجل الآن</button>
+            <button class="btn btn-success me-2">جدول الدروس</button>
+            <button class="btn btn-warning">اتصل بنا</button>
+        </div>
+
+        <!-- جدول الطلاب باليمين -->
+        <div class="table-responsive">
+            <table class="table table-bordered text-end">
+                <thead class="table-dark">
+                    <tr>
+                        <th>اسم الطالب</th>
+                        <th>السور المحفوظة</th>
+                        <th>اليوم</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>بسيل</td>
+                        <td>الفاتحة، البقرة، آل عمران</td>
+                        <td>الأربعاء</td>
+                    </tr>
+                    <tr>
+                        <td>أنمار</td>
+                        <td>النساء، المائدة</td>
+                        <td>الخميس</td>
+                    </tr>
+                    <tr>
+                        <td>أحمد</td>
+                        <td>الأنعام، الأعراف</td>
+                        <td>الأربعاء</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- الأعمدة -->
+        <div class="row mt-4">
+            <div class="col-md-4 mb-3">
+                <div class="p-3 bg-primary text-white text-center rounded">حفظ السور</div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="p-3 bg-success text-white text-center rounded">تفسير معاني الآيات</div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="p-3 bg-warning text-dark text-center rounded">تعليم التجويد</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ربط Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

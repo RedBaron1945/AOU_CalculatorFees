@@ -1,60 +1,47 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>حاسبة رسوم المواد</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حلقة القرآن</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>مرحبًا إلى الآلة الحاسبة لرسوم مواد الجامعة العربية المفتوحة!</h1>
+        <h1>حلقة القرآن الكريم</h1>
+        <p>مرحبا بكم في موقعنا البسيط لتعلم القرآن</p>
+        <!-- زر الانتقال لصفحة Bootstrap -->
+        <a href="page2.html" class="btn-go">اذهب إلى صفحة Bootstrap</a>
     </header>
 
     <main>
         
-        <div id="box1">
-            <h3>تعليمات استخدام الآلة الحاسبة :-</h3>
-            <pre>
-    1. الرجاء إدخال المواد بهذا الشكل: المادة الأولى - المادة الثانية - المادة الثالثة 
-       مثال:
-       EL097 - TM111 - MT101 
+        <section>
+            <h2>أهداف الحلقة</h2>
+            <ul>
+                <li>حفظ سور القرآن الكريم</li>
+                <li>تفسير معاني الآيات</li>
+                <li>تعليم التجويد بشكل مبسط</li>
+            </ul>
+        </section>
 
-    2. الرجاء مراعاة أن المواد الآتية هي المدعومة حاليًا فقط، أي مواد ليست موجودة في هذا الجدول فلن يتم حساب رسومها.
-            </pre>
-        </div>
-        <br>
-        <label for="subjects">أدخل المواد التي ترغب بتسجيلها:</label><br>
-        <input type="text" id="subjects" placeholder="المادة الأولى - المادة الثانية  -  الخ ">
-        <label for="VATbox">هل ترغب باحتساب ضريبة القيمة المضافة مع الإجمالي؟ هذا الخيار لغير السعوديين فقط</label>
-        <input type="checkbox" id="VATbox">
-        <br><br>
-        <button id="CalculatingTotal">احسب الإجمالي الآن</button>
-        <button id="DeletingBut">مسح المواد</button>
-        <h4 id="TheFirstLabel"></h4>
-        <h4 id="TheTotal"></h4>
-        <h4 id="TheSecondLabel"></h4>
-        <br>
-        <p>هل تبحث عن مجموعات الواتس آب الخاصة بالجامعة العربية المفتوحة؟</p>
-        <a href="Page2.html">
-            <button> اضغط هنا لاستعراض كل المجموعات!</button>
-        </a>
+        <section>
+            <h2>الجدول الأسبوعي</h2>
+            <p>كل يوم أربعاء وخميس بعد صلاة العصر.</p>
+        </section>
+
+<section class="image-section">
+    <h2>بالقرآن نحيا و نتعلم .. </h2>
+    <div class="image-container">
         
+        <img src="P012242.jpg" alt="حلقة القرآن" class="responsive-img">
+    </div>
+</section>
+
     </main>
 
     <footer>
-        <hr>
-        &copy; كافة حقوق الطبع و النشر محفوظة لألمانيا النازية - حي النسيم
-        <br>
-        أي انتهاك لحقوق الطبع و النشر الموضحة أعلاه، يعرض المنتهك إلى الهلاك بنفس مصير اليهود أيام هتلر 
-        <br>
-        في حالة وجود أي استفسار أو اقتراحات، تواصل على الواتس آب:
-        <br>
-        0536820848
-        <br>
-        <img src="NaziLogo (2).png" id="footer-img" alt="Logo">
+        <p>حقوق النشر &copy; 2025 حلقة القرآن</p>
     </footer>
-
-    <script src="index.js"></script>
 </body>
 </html>
